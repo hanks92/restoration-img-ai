@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super-Résolution avec EDSR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Super-Résolution d'Images avec EDSR</h1>
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="uploadImage()">Améliorer l'image</button>
+    <p id="status"></p>
+    <h2>Image Originale</h2>
+    <img id="originalImage" src="#" alt="Image originale" style="display: none; max-width: 400px;">
+    <h2>Image Restaurée</h2>
+    <img id="enhancedImage" src="#" alt="Image améliorée" style="display: none; max-width: 400px;">
+    <script src="script.js"></script>
+</body>
+</html>
